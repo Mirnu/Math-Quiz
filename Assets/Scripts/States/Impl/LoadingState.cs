@@ -1,5 +1,4 @@
 ﻿using Assets.Scripts.Data;
-using System.Collections;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
@@ -18,13 +17,13 @@ namespace Assets.Scripts.States.Impl
             if (data.Sprite != null)
             {
                 _questionImage.sprite = data.Sprite;
-                _questionText.gameObject.SetActive(false);
             }
             else
             {
                 _questionText.text = data.Question;
-                _questionImage.gameObject.SetActive(false);
             }
+            _questionText.gameObject.SetActive(data.Sprite == null);
+            _questionImage.gameObject.SetActive(data.Sprite != null);
             stateMachine.LoadState(States.Game);
         }
     }

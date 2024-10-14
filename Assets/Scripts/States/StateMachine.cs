@@ -9,7 +9,8 @@ namespace Assets.Scripts.States
         Loading,
         Game,
         Win,
-        Lose
+        Lose,
+        Settings
     }
 
     public class StateMachine : MonoBehaviour
@@ -19,6 +20,7 @@ namespace Assets.Scripts.States
         [SerializeField] private State GameState;
         [SerializeField] private State WinState;
         [SerializeField] private State LoseState;
+        [SerializeField] private State SettingsState;
 
         private Dictionary<States, State> _statesMap = new();
 
@@ -30,6 +32,7 @@ namespace Assets.Scripts.States
             _statesMap[States.Game] = GameState;
             _statesMap[States.Lose] = LoseState;
             _statesMap[States.Win] = WinState;
+            _statesMap[States.Settings] = SettingsState;
 
             foreach (var state in _statesMap)
             {
