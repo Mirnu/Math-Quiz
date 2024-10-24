@@ -9,9 +9,10 @@ namespace Assets.Scripts.Data
     {
         [SerializeField] private int _currentLevel;
 
-        public List<LevelData> LevelDatas;
+        public ThemeData Theme;
 
         public int CurrentLevel => _currentLevel;
+        public List<LevelData> LevelDatas => Theme.Levels;
         public LevelData CurrentLevelData => LevelDatas[CurrentLevel];
 
         public LevelData NextLevel()

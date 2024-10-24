@@ -21,3 +21,4 @@ MonoBehaviour:
   - 5
   RightAnswerIndex: 1
   Sprite: {fileID: 0}
+  IsQuestion: 1

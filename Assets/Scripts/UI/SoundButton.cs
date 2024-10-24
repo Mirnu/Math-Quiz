@@ -9,13 +9,13 @@ namespace Assets.Scripts.UI
 {
     [RequireComponent(typeof(Button))]
     [RequireComponent(typeof(AudioSource))]
-    public class SoundButton : MonoBehaviour, IPointerDownHandler
+    public class SoundButton : MonoBehaviour, IPointerEnterHandler
     {
         private AudioSource _audioSource;
         private Button _button;
         private SoundContainer _soundContainer => SoundContainer.Instance;
 
-        public void OnPointerDown(PointerEventData eventData)
+        public void OnPointerEnter(PointerEventData eventData)
         {
             Debug.Log(1);
             PlaySound(SoundType.HoverButton);

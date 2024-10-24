@@ -20,3 +20,4 @@ MonoBehaviour:
   - 0.4
   RightAnswerIndex: 3
   Sprite: {fileID: 21300000, guid: 3a25927144a440c4cbd3bc30e44d81ac, type: 3}
+  IsQuestion: 1

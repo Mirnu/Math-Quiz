@@ -11,5 +11,6 @@ namespace Assets.Scripts.Data
         public List<string> Answers;
         public int RightAnswerIndex;
         public Sprite Sprite;
+        public bool IsQuestion;
     }
 }

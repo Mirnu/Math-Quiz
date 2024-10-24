@@ -20,3 +20,4 @@ MonoBehaviour:
   - "\u0410"
   RightAnswerIndex: 0
   Sprite: {fileID: 0}
+  IsQuestion: 1

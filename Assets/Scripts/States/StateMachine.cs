@@ -32,14 +32,12 @@ namespace Assets.Scripts.States
             _statesMap[States.Game] = GameState;
             _statesMap[States.Lose] = LoseState;
             _statesMap[States.Win] = WinState;
-            _statesMap[States.Settings] = SettingsState;
+            //_statesMap[States.Settings] = SettingsState;
 
             foreach (var state in _statesMap)
             {
                 state.Value.Init(this);
             }
-
-            LoadState(States.Loading);
         }
 
         public void LoadState(States state)

@@ -20,3 +20,4 @@ MonoBehaviour:
   - x = 10
   RightAnswerIndex: 0
   Sprite: {fileID: 0}
+  IsQuestion: 1

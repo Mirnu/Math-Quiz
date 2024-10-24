@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb25c4e2b18267f4f8795ac711bcb925, type: 3}
+  m_Name: Logarifms
+  m_EditorClassIdentifier: 
+  Name: "\u041B\u043E\u0433\u0430\u0440\u0438\u0444\u043C\u044B"
+  Levels:
+  - {fileID: 11400000, guid: 0643a8ad53c5cbe4c9de84104da6eb44, type: 2}
+  - {fileID: 11400000, guid: 8e58b3c6aedeef64fa3c1ec4ad3306c1, type: 2}
+  - {fileID: 11400000, guid: 851f488a5e495ec48a67ef29867de16b, type: 2}
+  - {fileID: 11400000, guid: 5863a95e52a63b94f94ff1ffb06f1b48, type: 2}
+  - {fileID: 11400000, guid: e831e3d216f855c4bb81272271a8df88, type: 2}
+  - {fileID: 11400000, guid: 1d546a99c6876584a8d1bc6b6b972f2d, type: 2}
+  - {fileID: 11400000, guid: 7987aa7a1d262fa4cb19b4dafe3dd884, type: 2}
+  - {fileID: 11400000, guid: 908909ac9619ee94c8276910ca896151, type: 2}
+  - {fileID: 11400000, guid: 31d543cd7e19abc4484bb659cb92b6f8, type: 2}
+  - {fileID: 11400000, guid: 5b3a6d9b09425bc498bcc6cd959786ab, type: 2}
+  - {fileID: 11400000, guid: 7d3373d1d77cc6549a278e95cba2d9ac, type: 2}
+  - {fileID: 11400000, guid: a2121c620e1b0594daaaa0ef2e671015, type: 2}
