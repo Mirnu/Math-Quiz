@@ -13,5 +13,7 @@ MonoBehaviour:
   m_Name: EasyCategory
   m_EditorClassIdentifier: 
   _themes:
-  - {fileID: 11400000, guid: 20af2b575df9bed44b2ca276ebb964b4, type: 2}
+  - {fileID: 11400000, guid: 28b2b93d1d4d4004199e8341ed4a6055, type: 2}
+  - {fileID: 11400000, guid: caae3103faa1eb649b29068878b4d902, type: 2}
+  - {fileID: 11400000, guid: 6243aefda08ef404eb1146682d89e142, type: 2}
   _name: "\u041B\u0435\u0433\u043A\u043E\u0435"

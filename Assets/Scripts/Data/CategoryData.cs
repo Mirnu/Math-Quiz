@@ -10,16 +10,13 @@ namespace Assets.Scripts.Data
         [SerializeField] private ThemeData[] _themes;
         [SerializeField] private string _name;
         public string Name => _name;
+        public int Count => _themes.Length;
 
         private ThemeEnumerator _enumerator;
 
         public IEnumerator<ThemeData> GetEnumerator()
         {
-            if (_enumerator == null)
-            {
-                _enumerator = new ThemeEnumerator(_themes);
-            }
-            return _enumerator;
+            return new ThemeEnumerator(_themes);
         }
 
         IEnumerator IEnumerable.GetEnumerator()

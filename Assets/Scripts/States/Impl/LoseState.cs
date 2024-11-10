@@ -11,8 +11,13 @@ namespace Assets.Scripts.States.Impl
         [SerializeField] private Button _restartButton;
         [SerializeField] private TMP_Text _loseText;
 
-        private List<string> _words = new List<string>() { "ДОМОООЙ БОТА", "Тили-тили-бом ВП следит за тобой",
-        "ТЫ че тупой?", "Переигрывай, пока я добрый" };
+        private List<string> _words = new List<string>() 
+        {
+            "Переиграй, у тебя все получится!",
+            "Давай еще попытку", 
+            "У всех бывает",
+            "Опыт - это наши ошибки"
+        };
 
         public override void Enter()
         {

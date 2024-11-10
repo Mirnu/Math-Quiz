@@ -17,7 +17,6 @@ namespace Assets.Scripts.UI
 
         public void OnPointerEnter(PointerEventData eventData)
         {
-            Debug.Log(1);
             PlaySound(SoundType.HoverButton);
         }
 
